@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use('/api', schoolRoutes); // ✅ this is important
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT ;
 
 connectDB()
   .then(() => {
